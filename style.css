@@ -1,0 +1,67 @@
+body{
+    background-color: azure;
+    color: #444444;
+    font-family: Arial;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    margin-left: 590px;
+    margin-top: 30px;
+}
+
+#home,#about,#fitness,#contact{
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+    color: #444444;
+    display: inline-block;
+}
+
+#home:hover,#about:hover,#fitness:hover,#contact:hover{
+    font-size: 23px;
+    background-color: #c2ff7f;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#home{
+    margin-left: 470px;
+}
+
+#aboutp{
+    width: 430px;
+    display: inline-block;
+    font-size: 20px;
+    color: #444444;
+    margin-left: 10px;
+}
+
+
+@keyframes anime{
+    0%{background-color: azure}
+    50%{background-color: beige;}
+}
+
+#display{
+    width: 180px;
+    height: 230px;
+    margin-left: 130px;
+    box-shadow: 3px 3px 3px #444444;
+    display: inline-block;
+}
+
+a{
+    color: #444444;
+}
+
+#heading{
+    display: inline-block;
+}
+
+img{
+    margin-left: 370px;
+    height: 270px;
+}
